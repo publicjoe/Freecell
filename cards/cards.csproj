@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A42CDA4-74D8-44B2-AB52-EA3FB3627112}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cards</RootNamespace>
+    <AssemblyName>cards</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="card.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamondA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamondJ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamondK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamondQ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heart9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heartA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heartJ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heartK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\heartQ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spade9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spadeA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spadeJ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spadeK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\spadeQ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\clubA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\clubJ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\clubK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\clubQ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diamond2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\bigJoker.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\club3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\backBlack.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
